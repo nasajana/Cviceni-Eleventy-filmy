@@ -1,3 +1,15 @@
 .hlavicka {
     background-color: #9c27b0;
 }
+
+.hlavicka__logo {
+    margin: 0;
+    display: flex;
+}
+
+.hlavicka__obsah {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
