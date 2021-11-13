@@ -1,5 +1,5 @@
 .paticka {
-    background-color: #fafafa;
+    background-color: var(--barva-paticka);
     padding: 1rem 0;
 }
 
@@ -19,7 +19,7 @@
 .paticka__nadp {
     margin: 0;
     font-size: 1.1em;
-    color: #303030;
+    color: var(--barva-paticka-nadp);
 }
 
 .paticka__szn {
@@ -35,5 +35,5 @@
 
 .paticka__odk {
     text-decoration: none;
-    color: #444444;
+    color: var(--barva-paticka-odk);
 }

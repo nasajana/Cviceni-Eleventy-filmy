@@ -1,0 +1,36 @@
+.seznam {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.seznam__pol {
+    padding: 0.2em 0;
+    line-height: 1.1;
+}
+
+.seznam__odk {
+    color: var(--barva-seznam);
+    text-decoration: none;
+}
+
+.seznam a:hover,
+.seznam a:focus {
+    font-weight: bold;
+    color: var(--barva-zahlavi)
+}
+
+
+/* odrážky čtverečky*/
+
+.seznam__odk::before {
+    content: "";
+    margin-bottom: 0.1em;
+    width: 0.6em;
+    height: 0.6em;
+    background-color: var(--barva-zahlavi);
+    border-bottom: 0.2em solid var(--barva-seznam);
+    border-left: 0.2em solid var(--barva-seznam);
+    display: inline-block;
+    margin-right: 0.5em;
+}

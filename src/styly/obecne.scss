@@ -8,6 +8,15 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --barva-zahlavi: #9c27b0;
+    --barva-paticka: #fafafa;
+    --barva-paticka-nadp: #303030;
+    --barva-paticka-odk: #444444;
+    --barva-text: black;
+    --barva-seznam: #3d5afe;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -33,33 +42,4 @@ body {
 .hlavni-nadp {
     margin: 0 0 0.5em;
     font-size: 2rem;
-}
-
-.seznam {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.seznam__pol {
-    padding: 0.2em 0;
-    line-height: 1.1;
-}
-
-.seznam__odk {
-    color: #3d5afe;
-    text-decoration: none;
-}
-
-
-/*prozkoumat, co toto dělá*/
-
-.seznam__odk::before {
-    content: "";
-    margin-bottom: 0.1em;
-    width: 0.5em;
-    height: 0.5em;
-    background-color: #3d5afe;
-    display: inline-block;
-    margin-right: 0.5em;
 }
