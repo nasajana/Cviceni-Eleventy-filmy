@@ -19,3 +19,47 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+
+/*tyto styly rozhodit na části*/
+
+.rozlozeni__telo {
+    max-width: 52rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.hlavni-nadp {
+    margin: 0 0 0.5em;
+    font-size: 2rem;
+}
+
+.seznam {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.seznam__pol {
+    padding: 0.2em 0;
+    line-height: 1.1;
+}
+
+.seznam__odk {
+    color: #3d5afe;
+    text-decoration: none;
+}
+
+
+/*prozkoumat, co toto dělá*/
+
+.seznam__odk::before {
+    content: "";
+    margin-bottom: 0.1em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #3d5afe;
+    display: inline-block;
+    margin-right: 0.5em;
+}
