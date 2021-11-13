@@ -1,0 +1,11 @@
+.rozlozeni {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.rozlozeni__telo {
+    max-width: $sirka-obsahu;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem $mezera-od-okraju;
+}

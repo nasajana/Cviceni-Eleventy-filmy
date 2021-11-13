@@ -1,13 +1,13 @@
 .paticka {
-    background-color: var(--barva-paticka);
-    padding: 1rem 0;
+    background-color: $paticka-barva;
+    padding: $mezera-od-okraju 0;
 }
 
 .paticka__cela {
-    max-width: 52rem;
+    max-width: $sirka-obsahu;
     width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: $mezera-od-okraju;
 }
 
 .paticka__casti {
@@ -19,7 +19,7 @@
 .paticka__nadp {
     margin: 0;
     font-size: 1.1em;
-    color: var(--barva-paticka-nadp);
+    color: $paticka-nadpis-barva;
 }
 
 .paticka__szn {
@@ -35,5 +35,5 @@
 
 .paticka__odk {
     text-decoration: none;
-    color: var(--barva-paticka-odk);
+    color: $paticka-odkaz-barva;
 }

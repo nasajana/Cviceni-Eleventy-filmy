@@ -1,3 +1,14 @@
+// === velikost ===
+$sirka-obsahu: 50rem;
+$mezera-od-okraju: 1rem;
+$font: 'Roboto',
+sans-serif;
+// === barvy ===
+$hlavni-barva: #9c27b0;
+$doplnkova-barva: #3d5afe;
+$paticka-barva: #fafafa;
+$paticka-odkaz-barva:#444444;
+$paticka-nadpis-barva:#303030;
 html {
     box-sizing: border-box;
 }
@@ -8,38 +19,9 @@ html {
     box-sizing: inherit;
 }
 
-:root {
-    --barva-zahlavi: #9c27b0;
-    --barva-paticka: #fafafa;
-    --barva-paticka-nadp: #303030;
-    --barva-paticka-odk: #444444;
-    --barva-text: black;
-    --barva-seznam: #3d5afe;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
     margin: 0;
     display: grid;
     min-height: 100vh;
-}
-
-.rozlozeni {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
-
-/*tyto styly rozhodit na části*/
-
-.rozlozeni__telo {
-    max-width: 52rem;
-    width: 100%;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
-
-.hlavni-nadp {
-    margin: 0 0 0.5em;
-    font-size: 2rem;
 }

@@ -10,14 +10,14 @@
 }
 
 .seznam__odk {
-    color: var(--barva-seznam);
+    color: $doplnkova-barva;
     text-decoration: none;
 }
 
 .seznam a:hover,
 .seznam a:focus {
     font-weight: bold;
-    color: var(--barva-zahlavi)
+    color: $hlavni-barva;
 }
 
 
@@ -28,9 +28,9 @@
     margin-bottom: 0.1em;
     width: 0.6em;
     height: 0.6em;
-    background-color: var(--barva-zahlavi);
-    border-bottom: 0.2em solid var(--barva-seznam);
-    border-left: 0.2em solid var(--barva-seznam);
+    background-color: $hlavni-barva;
+    border-bottom: 0.2em solid $doplnkova-barva;
+    border-left: 0.2em solid $doplnkova-barva;
     display: inline-block;
     margin-right: 0.5em;
 }

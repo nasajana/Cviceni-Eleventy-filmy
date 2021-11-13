@@ -1,5 +1,5 @@
 .hlavicka {
-    background-color: var(--barva-zahlavi);
+    background-color: $hlavni-barva;
 }
 
 .hlavicka__logo {
@@ -8,8 +8,8 @@
 }
 
 .hlavicka__obsah {
-    max-width: 52rem;
+    max-width: $sirka-obsahu;
     width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: $mezera-od-okraju;
 }
