@@ -1,10 +1,10 @@
 ---
 layout: zakladni
 ---
-
-<h1>Zkouška úvodní stránky - jsme na Netlify?</h1>
+<div class="rozlozeni__telo">
 <ul>
   	{% for film in filmy %}
   		<li><a href="/film/{{ film.nazev | slug }}">{{ film.nazev }}</a></li>
   	{% endfor %}
   </ul>
+  </div>

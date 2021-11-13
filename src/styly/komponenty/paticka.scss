@@ -1,0 +1,41 @@
+.paticka {
+    background-color: #fafafa;
+    padding: 1rem 0;
+}
+
+.paticka__cela {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.paticka__casti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+.paticka__cast {}
+
+.paticka__nadp {
+    margin: 0;
+    font-size: 1.1em;
+    color: #303030;
+}
+
+.paticka__szn {
+    margin: 0.5em 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.paticka__pol {
+    padding: 0.2em 0;
+    line-height: 1.1;
+}
+
+.paticka__odk {
+    text-decoration: none;
+    color: #444444;
+}

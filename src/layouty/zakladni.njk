@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-  <html lang="cz">
-  	<head>
-  		<meta charset="UTF-8" />
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  		<title>FILMY.cz</title>
-        <link rel="stylesheet" href="index.css">
-  	</head>
-  	<body>
-    {% include "hlavicka.njk" %}
-      {{ content | safe }}
-    </body>
-  </html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILMY.cz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="rozlozeni">
+    {% include "hlavicka.njk" %} 
+    {{ content | safe }} 
+    {% include "paticka.njk" %}
+  </div>
+</body>
+
+</html>
