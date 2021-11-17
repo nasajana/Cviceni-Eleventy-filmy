@@ -2,3 +2,36 @@
     margin: 0 0 0.5em;
     font-size: 2rem;
 }
+
+.detail {
+    display: grid;
+    gap: 0 2rem;
+}
+
+.detail-box {
+    margin: 0 0 1.7em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.2em 0.5em;
+}
+
+.detail-mrizka {
+    margin: 0 0 1.7em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.2em 0.5em;
+}
+
+.detail-mrizka dt,
+.detail-mrizka dl {
+    margin: 0;
+}
+
+.detail-inf {
+    font-weight: bold;
+}
+
+.pod-nadpis {
+    margin: 0.8em 0 0.2em;
+    font-size: 1.5rem;
+}
