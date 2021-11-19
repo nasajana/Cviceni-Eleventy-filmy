@@ -35,3 +35,12 @@
     margin: 0.8em 0 0.2em;
     font-size: 1.5rem;
 }
+
+
+/* === responsivita === */
+
+@media (min-width: 50rem) {
+    .detail {
+        grid-template-columns: 1fr 12rem;
+    }
+}
