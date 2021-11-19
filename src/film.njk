@@ -30,6 +30,7 @@ permalink: "/film/{{ film.nazev | slug }}/"
            <img class="detail__obr" src="{{ film.plakat.url }}" width="{{ film.plakat.sirka }}" height="" alt="plakát">
           <h3 class="pod-nadpis">Hodnocení</h3>
           <div class="hodnoceni hodnoceni--skore-5">hvězdičky</div>
+          {% if film.souvisejici | length > 0 %}
           <h3 class="pod-nadpis">Související filmy</h3>
           {% set filmy = film.souvisejici %}
             <ul class="seznam">
@@ -37,6 +38,7 @@ permalink: "/film/{{ film.nazev | slug }}/"
   		        <li class="seznam__pol"><a class="seznam__odk" href="/film/{{ film.nazev | slug }}">{{ film.nazev }}</a></li>
             	{% endfor %}
              </ul>
+            {% endif %}
         </aside>
     </div>
 </div>

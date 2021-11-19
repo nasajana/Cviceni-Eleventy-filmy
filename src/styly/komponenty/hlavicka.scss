@@ -7,6 +7,12 @@
     display: flex;
 }
 
+.logoimg {
+    display: inline-flex;
+    color: inherit;
+    text-decoration: none;
+}
+
 .hlavicka__obsah {
     max-width: $sirka-obsahu;
     width: 100%;
