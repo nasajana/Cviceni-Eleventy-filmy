@@ -396,5 +396,26 @@
             "sirka": 360,
             "vyska": 504
         }
+    },
+    {
+        "nazev": "Kukačky",
+        "rok": 2021,
+        "zanr": ["Drama", "Komedie"],
+        "zeme": ["Česko"],
+        "delka": 687,
+        "obsah": {
+            "text": "Seriál Kukačky vypráví příběh mladého manželského páru, který zjistí, že jejich syn není jejich. Když se dozvědí, že došlo k záměně, musejí se rozhodnout, co udělají. Žádné řešení není jenom dobré. Záměna dětí na malém městě se dotkne nejen rodin, kterých se přímo týká, ale i ostatních obyvatel. Vzhledem k tomu, že k záměně došlo v místní nemocnici, zasáhne osudová událost do života mnoha dalších. Abychom pochopili vazby a vztahy mezi lidmi ve městě, vyprávění se dotkne i událostí v minulosti. Lidé si totiž nesou svá tajemství i nenaplněné touhy, které v kritických chvílích vyplouvají na povrch.",
+            "autor": {
+                "jmeno": "Česká televize",
+                "odkaz": "http://www.ceskatelevize.cz/"
+            }
+        },
+        "hodnoceni": 5,
+        "souvisejici": [{ "nazev": "Pelíšky" }, { "nazev": "Vlastníci" }],
+        "plakat": {
+            "url": "https://www.serialzone.cz/obrazky/plakaty/kukacky-9422.jpg",
+            "sirka": 360,
+            "vyska": 504
+        }
     }
 ]

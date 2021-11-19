@@ -1,0 +1,15 @@
+.autor__odkaz {
+    font-style: italic;
+    text-decoration: none;
+    color: $doplnkova-barva;
+}
+
+.autor__ne-odkaz {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.autor__odkaz:hover,
+.autor__odkaz:focus {
+    text-decoration: inherit;
+}

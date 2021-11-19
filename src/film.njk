@@ -11,25 +11,19 @@ permalink: "/film/{{ film.nazev | slug }}/"
     <h2 class="hlavni-nadp">{{ film.nazev }}</h2>
     <dl class=detail-mrizka>
       <dt class=detail-inf>Rok:</dt><dd>{{ film.rok }}</dd>
-      <dt class=detail-inf>Země:</dt><dd>{{ film.zeme }}</dd>
-      <dt class=detail-inf>Žánr:</dt><dd>{{ film.zanr }}</dd>
-      <dt class=detail-inf>Délka:</dt><dd>{{ film.delka }}</dd>
+      <dt class=detail-inf>Země:</dt><dd>{{ film.zeme | join(", ")}}</dd>
+      <dt class=detail-inf>Žánr:</dt><dd>{{ film.zanr | join(" / ")}}</dd>
+      <dt class=detail-inf>Délka:</dt><dd>{{ film.delka }} minut</dd>
     </dl>
     <h3 class="pod-nadpis">Obsah</h3>
   <div>{{ film.obsah.text }}
   
 {% if film.obsah.autor.odkaz|length > 0  %}
-  (<a href="{{ filmy.obsah.autor.odkaz }}">{{ film.obsah.autor.jmeno }}</a>)
+  (<a class="autor__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.jmeno }}</a>)
 {% else %}
-<span>({{ film.obsah.autor.jmeno }})</span>
+<span class="autor__ne-odkaz">({{ film.obsah.autor.jmeno }})</span>
 {% endif %}
-<!-- 
-<p> v kolika žánrech je {{ film.zanr | length }}</p>
-{{ filmy.obsah.autor.odkaz}}
-{% if filmy.obsah.autor.odkaz %}
-<h1>funguje</h1>
-{% endif %}
--->
+
   </div>
 </div>
 </div>
