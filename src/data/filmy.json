@@ -96,6 +96,7 @@
         },
         "hodnoceni": 4,
         "souvisejici": [
+            { "nazev": "Kukačky" },
             { "nazev": "Pelíšky" },
             { "nazev": "Ajťáci Přichází internet" }
         ],
@@ -267,7 +268,7 @@
             }
         },
         "hodnoceni": 5,
-        "souvisejici": [{ "nazev": "Vlastníci" }, { "nazev": "Tmavomodrý svět" }],
+        "souvisejici": [{ "nazev": "Kukačky" }, { "nazev": "Vlastníci" }, { "nazev": "Tmavomodrý svět" }],
         "plakat": {
             "url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/165/049/165049346_a93cc4.jpg",
             "sirka": 360,
