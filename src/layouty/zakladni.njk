@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FILMY.cz</title>
+    <title>{% if film %} {{ film.nazev }} - {% endif %}Filmy.cz</title>
     <link rel="shortcut icon" href="/obrazky/favicon.svg"/>
     <link rel="stylesheet" href="/index.css">
     <style>
